@@ -2,6 +2,7 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := android.hardware.vibrator-service.mediatek
+LOCAL_VINTF_FRAGMENTS := android.hardware.vibrator.mediatek.xml
 LOCAL_INIT_RC := vibrator-mediatek.rc
 LOCAL_VENDOR_MODULE := true
 LOCAL_MODULE_RELATIVE_PATH := hw
